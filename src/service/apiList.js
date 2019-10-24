@@ -35,23 +35,6 @@ const getAjax = async(url,data) => {
 };
 
 
-export const getKey = (data) => postAjax('/api/getPostData',data);
-
-export const login = (data) => postAjax('/api/getPostData',data);
-
-export const wdLogin = (data) => postAjax('/wdapi/member/userStatuSynchronous',data);
-
-export const addVisit = (data) => postAjax('/ckwdapi/getPostData',data);
-
-export const getUserInfo = (data) => postAjax('/ckwdapi/getPostData',data);
-
-export const ckwdAjax = (data) => postAjax('/ckwdapi/getPostData',data);
-
-export const getCode = (data) => postAjax('/verify',data);
-
-export const adminLogin = (data) => getAjax('/Login/checkin',data);
-
-
 
 
 
